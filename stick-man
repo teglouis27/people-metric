@@ -1,0 +1,9 @@
+(* This gives an image of a stick man. *)
+Graphics[{
+   Circle[{0, 2}, 0.5], (* Head *)
+   Line[{{0, 1.5}, {0, 0}}], (* Torso *)
+   Line[{{0, 1}, {-0.5, 0.5}}], (* Left Arm *)
+   Line[{{0, 1}, {0.5, 0.5}}], (* Right Arm *)
+   Line[{{0, 0}, {-0.5, -1}}], (* Left Leg *)
+   Line[{{0, 0}, {0.5, -1}}] (* Right Leg *)
+   }]
